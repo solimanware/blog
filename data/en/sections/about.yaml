@@ -1,0 +1,42 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Mobile Engineer
+# your company information
+company:
+  name: Bizimply
+  url: "https://www.bizimply.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "https://microsmsm.com/resume"
+
+# a summary about you
+summary: 'I am a passionate mobile development with 7 years of working experience. I built OSS projects like [Dawaey](https://dawaey.com/) using Ionic/Angular. My tools help thoussands of healthcare providers to choose the right medications for their patients. Sometimes, I work on some other projects check my [Github](https://github.com/microsmsm).'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/microsmsm"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Creativity
+  percentage: 85
+  color: pink
+- name: Team Work
+  percentage: 90
+  color: blue
+- name: Speedy Development
+  percentage: 95
+  color: green
